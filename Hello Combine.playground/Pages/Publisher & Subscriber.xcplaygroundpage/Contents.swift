@@ -34,6 +34,13 @@ let object = MyClass()
 let subscription3 = arrayPublisher.assign(to: \.property, on: object)
 print("Final Value: \(object.property)")
 
+//Did set property to 1
+//Did set property to 3
+//Did set property to 5
+//Did set property to 7
+//Did set property to 9
+//Final Value: 9
+
 
 
 
